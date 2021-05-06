@@ -1,0 +1,11 @@
+Si implementi un programma che dato in input un array di interi, sia in grado di restituire il valore degli scambi necessari all'insertionsort per poterlo ordinare
+
+TASKS:
+1000
+
+Input:
+N+1 elementi : il Primo è N, seguono gli N elementi dell'array
+
+Output:
+un unico elemento, ossia il numero di scambi necessari per ordinare l'array tramite insertionsort
+

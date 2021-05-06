@@ -1,0 +1,10 @@
+Si implementi un programma che dato un coefficiente x ed una lista di parole, sia in grado di restituire solo le parole che superano o sono uguali in lunghezza quel valore x
+
+TASKS:
+1000
+
+Input:
+N+2 elementi, dove il primo elemento è il coefficiente x, il secondo è il numero di parole della lista di elementi che segue -->> 4 3 oro argento osso
+
+Output:
+La lista delle parole che superano o sono uguali in lunghezza al valore x -->> argento osso

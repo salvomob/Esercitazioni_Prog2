@@ -1,0 +1,10 @@
+Si implementi un programma che preso in input un carattere x e una liste di stringhe, sia in grado di restituire solo le stringhe che cominciano o finiscono con quel dato carattere
+
+TASKS:
+1000
+
+Input:
+N+2 elementi -> x , N e gli N elementi da controllare -->> a 3 osso cane amore
+
+Output:
+Solo le stringhe contenenti all'inizio o alla fine quel dato carattere -->> amore	 

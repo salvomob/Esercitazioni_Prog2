@@ -1,0 +1,18 @@
+Si implementi una classe Quadrato che sia in grado di restituire il perimetro e l'area passato in input il lato
+
+Tasks:
+1000
+
+Input:
+N+1 elementi dove il primo rappresenta il numero dei lati per ogni linea di input a cui associare un quadrato
+
+es:
+(linea 1) 3 4 7 9
+(linea 2) 2 3 5
+
+Output:
+Se la linea è dispari calcolare il perimetro di quei quadrati, se è pari l'area 
+
+es(vedi sopra):
+linea 1 dispari, calcolo il perimetro dei quadrati e quindi in output ->> 16 28 36
+linea 2 pari, calcolo l'area dei quadrati -->> 9 25

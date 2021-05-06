@@ -1,0 +1,11 @@
+Si implementi un programma che preso in input una lista di numeri interi, sia in grado di calcolarne la somma 
+
+Task :
+1000
+
+
+Input :
+N+1 elementi -->> il primo elemento è il numero degli N interi elementi che seguono.
+
+Output:
+Un unico valore-->> la somma di tutti gli elementi 

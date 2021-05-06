@@ -1,0 +1,10 @@
+Si implementi un programma che preso un array di interi , ne calcoli il minimo 
+
+Tasks:
+1000
+
+Input:
+N+1 elementi -->> Il primo elemento è il numero degli N elementi che seguiranno
+
+Output:
+Un unico elemento, ossia il minimo dell'array
