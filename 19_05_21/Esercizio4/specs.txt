@@ -1,0 +1,7 @@
+Si fornisca un programma c++ che preso in input un valore , sia in grado di restituire il valore del suo fattoriale.
+
+Input:
+N+1 elementi. Il primo è il numero degli N di cui si vuole calcolare il fattoriale.
+
+Output:
+N valori relativi ai fattoriali dei numeri presi in input

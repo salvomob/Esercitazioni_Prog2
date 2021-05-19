@@ -1,0 +1,7 @@
+Si fornisca un programma c++ che preso in input il valore del raggio di un cerchio , sia in grado di restituire il valore (decimale) della sua circonferenza. Il tutto deve essere implementato attraverso una classe.
+
+Input:
+N+1 elementi. Il primo è il numero degli N valori di raggio che seguono.
+
+Output:
+N valori, relativi alle circonferenze dei cerchi di cui abbiamo preso il valore del raggio in input

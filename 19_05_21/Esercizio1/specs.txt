@@ -1,0 +1,7 @@
+Si fornisca un programma c++ che preso in input il valore del perimetro di un quadrato, sia in grado di restituire il valore (decimale) del suo lato. Il tutto deve essere implementato attraverso una classe.
+
+Input:
+N+1 elementi. Il primo è il numero degli N valori di perimetro che seguono.
+
+Output:
+N valori, relativi ai lati dei quadrati di cui abbiamo preso il valore del perimetro in input
