@@ -1,0 +1,75 @@
+Classe 1 : 
+
+Si implementi una classe che contiene al suo interno le informazioni relative ad uno studente.
+
+Lo studente ha :
+
+-nome
+-cognome
+-sesso
+-anno di nascita
+-locazione 
+-matricola
+
++Studente(parameters)
++~Studente()
++set()
++get()
++overloading operatore di redirezione dell'output
+
+
+
+
+Classe 2:
+
+Si implementi una classe Rettangolo che al suo interno contiene le informazioni relative ai suoi punti.
+
+-p1x
+-p1y
+-p2x
+-p2y
+-p3x
+-p3y
+-p4x
+-p4y
+
+
++Rettangolo()
++~Rettangolo()
++set()
++get()
++base()
++altezza
++perimetro()
++area()
++overloading operatore di redirezione dell'output
++overloading operatore di redirezione dell'input
+
+Classe 3:
+
+Si implementi una classe Sigaretta che al suo interno contiene le informazioni relative alla sigaretta:
+
+-nicotina
+-catrame
+-palladio
+-tabacco
+
++Sigaretta()
++~Sigaretta()
++set()
++get()
++overloading
+
+
+Classe 4:
+
+Si implementi una classe Accendino che al suo interno contiene le informazioni relative all'accendino:
+
+-gas
+-pietrina	
+
++Accendino()
++~Accendino()
++get()
++set()
++overloading()
