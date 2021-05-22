@@ -17,11 +17,13 @@ int main()
 	
 	delete r;
 	usleep(1000);
-	cout << *r << endl;//se vedete bene, tutti i valori saranno cambiati, poichè il rettangolo è stato eliminato ed al suo posto viene costruito un rettangolo non allocato con valori presi di default!!
+	//cout << *r << endl;//se vedete bene, tutti i valori saranno cambiati, poichè il rettangolo è stato eliminato ed al suo posto viene costruito un rettangolo non allocato con valori presi di default!!
 	
-	Rettangolo *r1 = new Rettangolo(0,100,100,0);//così creiamo un rettangolo direttamente nel main creandolo dinamicamente con 4 valori. N.B. si possono fare altre migliorie!!
+	Rettangolo *r1 = new Rettangolo();//così creiamo un rettangolo direttamente nel main creandolo dinamicamente con 4 valori. N.B. si possono fare altre migliorie!!
 	
+	
+	in>>*r1;
 	cout << *r1 << endl;
 	
-	cout << *r2 << endl;
+//	cout << *r2 << endl;
 }

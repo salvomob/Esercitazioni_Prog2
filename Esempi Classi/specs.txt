@@ -53,6 +53,8 @@ Si implementi una classe Sigaretta che al suo interno contiene le informazioni r
 -catrame
 -palladio
 -tabacco
+-industriale
+-marca
 
 +Sigaretta()
 +~Sigaretta()

@@ -117,26 +117,26 @@ inline int Rettangolo::getP4Y() const
 
 inline int Rettangolo::base(int p2x, int p1x) const
 {
-	return (p2x-p1x);
+	return abs(p2x-p1x);
 }
 
 inline int Rettangolo::altezza(int p1y,int p4y) const
 {
-	return (p1y-p4y);
+	return abs(p1y-p4y);
 }
 
 inline int Rettangolo::perimetro(int p1x,int p1y,int p3x,int p3y) const
 {
 	int b = this->base(p3x,p1x);
 	int h = this->altezza(p1y,p3y);
-	return ((b+h)*2);
+	return abs((b+h)*2);
 }
 
 inline int Rettangolo::area(int p1x,int p1y,int p3x,int p3y) const
 {
 	int b = this->base(p3x,p1x);
 	int h = this->altezza(p1y,p3y);
-	return (b*h);
+	return abs(b*h);
 }
 
 std::ostream& operator<<(std::ostream& os, const Rettangolo& r)
