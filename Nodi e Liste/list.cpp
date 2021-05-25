@@ -15,6 +15,18 @@ private:
 
 	Nodo<T> *head, *tail,*current;
 	int n;
+	
+	Nodo<T>* _search(T key)
+	{
+		Nodo<T>* tmp = head;
+		while(tmp && tmp->getKey() != key)
+		{
+			tmp = tmp->getNext();
+		}
+		return tmp;
+	}
+	
+	
 
 public:
 
@@ -25,32 +37,59 @@ public:
 		n = 0;
 	}
 	
-	
 	Lista<T>& ins(T key)
 	{
 		Nodo<T> *p = NULL;
 		Nodo<T>* x = new Nodo<T>(key);
 		Nodo<T>* tmp = head;
-		if(tmp == NULL){
-			head = x;
-			return *this;
-		} 
-		while(tmp){
+		while(tmp!=NULL && tmp->getKey() < key ){//ordinamento crescente -> se volessimo un ordinamento decrescente semplicemente scambio il < con >=
 			p = tmp;
 			tmp = tmp->getNext();
 		}
-		if(tmp == tail){
-			x->setNext(tail);
-			tail = x;
-			p->setNext(x);
-		}
-		else{
-			x->setNext(tmp);
-			p->setNext(x);
-		}
+		x->setNext(tmp);
+		if(p) p->setNext(x);
+		if(!p) head = x;
+		n++;
 		return *this;
-	} 	
-
+	} 
+	
+	
+	// inserimento in testa	
+	Lista<T>& insert(T key)
+	{          		         
+ 		Nodo<T> *y = new Nodo<T> (key);         	   
+ 		y->setNext(head);         
+ 		head = y;          
+	 	n++;// aumento il numero di elementi dopo un inserimento         
+	 	return *this;           
+	} 
+	
+	
+	int search(T key)
+	{
+		return (_search(key)!=NULL);
+	}
+	
+	
+	Lista<T>& canc(T key)
+	{
+		Nodo<T>* x = _search(key);
+		if(!x) return *this;
+		Nodo<T> *p = NULL;
+		Nodo<T> *tmp = head;
+		while(tmp!=NULL && tmp->getKey() < key)//stessa cosa se ala posto di tmp->getKey() < key mettessi tmp != x poichè alla fine del ciclo tmp DEVE essere uguale ad x
+		{
+			p = tmp;
+			tmp = tmp->getNext();
+		}
+		if(p) p->setNext(tmp->getNext());
+		else head = x->getNext();
+		tmp->setNext(NULL);
+		n--;
+		delete x;
+		return *this;		
+	}
+	 	
 	//iteratore
 	
 	void reset(){
@@ -74,7 +113,7 @@ public:
 	
 };
 
-template <class T> std::ostream& operator<<(std::ostream& os, const Lista<T>& l)
+/*template <class T> std::ostream& operator<<(std::ostream& os, const Lista<T>& l)
 {
 	Lista<T> tmp = l;
 	tmp.reset();
@@ -85,11 +124,11 @@ template <class T> std::ostream& operator<<(std::ostream& os, const Lista<T>& l)
 	os <<" }";
 	return os;	
 
-}
+}*/
 
 
 //se non voglio usare l' iteratore
-/*
+
 template <class T> std::ostream& operator<<(std::ostream& os, const Lista<T>& l)
 {
 	Nodo<T>* tmp = l.getHead();
@@ -102,4 +141,4 @@ template <class T> std::ostream& operator<<(std::ostream& os, const Lista<T>& l)
 	
 	return os;
 
-}*/
+}

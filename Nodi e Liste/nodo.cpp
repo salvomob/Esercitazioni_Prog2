@@ -12,6 +12,8 @@ public:
 		this->next = nullptr;
 	}
 	
+	~Nodo(){}
+	
 	void setKey(T key)
 	{
 		this->key = key;
@@ -36,5 +38,6 @@ public:
 	template <class T> std::ostream& operator<<(std::ostream& os,const Nodo<T>& n)
 	{
 		os << "Key Nodo : " << n.getKey() << "\n";
+		os << "Next Nodo : " << n.getNext() << "\n";
 		return os;
 	}
