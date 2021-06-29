@@ -1,0 +1,179 @@
+
+BUBBLESORT
+
+complessità O(n^2)
+
+Il bubble sort è un algoritmo iterativo, ossia basato sulla ripetizione di un procedimento fondamentale. La singola iterazione dell'algoritmo prevede che gli elementi dell'array siano confrontati a due a due, procedendo in un verso stabilito (che si scorra l'array a partire dall'inizio in avanti, o a partire dal fondo all'indietro, è irrilevante; d'ora in poi ipotizzeremo che lo si scorra partendo dall'inizio).
+Per esempio, saranno confrontati il primo e il secondo elemento, poi il secondo e il terzo, poi il terzo e il quarto, e così via fino al confronto fra il penultimo e l'ultimo elemento. Ad ogni confronto, se i due elementi confrontati non sono ordinati secondo il criterio prescelto, vengono scambiati di posizione. Durante ogni iterazione almeno un valore viene spostato rapidamente fino a raggiungere la sua collocazione definitiva; in particolare, alla prima iterazione il numero più grande raggiunge l'ultima posizione dell'array, alla seconda il secondo numero più grande raggiunge la penultima posizione, e così via.
+
+template <class T> void bubblesort(T *v,int n){
+	for(int i=0;i<n-1;i++)
+		for(int k=0;k<n-1-i;k++)
+			if(v[k]>v[k+1]) 
+				scambia(v,k,k+1);
+}
+
+
+
+
+INSERTIONSORT
+
+complessità O(n^2) caso pessimo/medio O(n) caso ottimo,ossia array già ordinato
+
+L'algoritmo solitamente ordina la sequenza sul posto. Si assume che la sequenza da ordinare sia partizionata in una sottosequenza già ordinata, all'inizio composta da un solo elemento, e una ancora da ordinare. Alla k-esima iterazione, la sequenza già ordinata contiene k elementi. In ogni iterazione, viene rimosso un elemento dalla sottosequenza non ordinata (scelto, in generale, arbitrariamente) e inserito (da cui il nome dell'algoritmo) nella posizione corretta della sottosequenza ordinata, estendendola così di un elemento.
+Per fare questo, un'implementazione tipica dell'algoritmo utilizza due indici: uno punta all'elemento da ordinare e l'altro all'elemento immediatamente precedente. Se l'elemento puntato dal secondo indice è maggiore di quello a cui punta il primo indice, i due elementi vengono scambiati di posto; altrimenti il primo indice avanza. Il procedimento è ripetuto finché si trova nel punto in cui il valore del primo indice deve essere inserito. Il primo indice punta inizialmente al secondo elemento dell'array, il secondo inizia dal primo. L'algoritmo così tende a spostare man mano gli elementi maggiori verso destra.
+
+
+
+algoritmo ricorsivo:
+
+template <class T> void r_insertionsort(T *v,int n){
+	if(n<=1) return;
+	r_insertionsort(v,n-1);
+	int j= n-2;
+	while(j>=0 && v[j]>v[j+1]){
+		scambia(v,j,j+1);
+		j--;
+	}
+}
+
+
+
+algoritmo iterativo:
+
+template <class T> void insertionsort(T *v,int n){
+	for(int i=0;i<n;i++){
+		int j=i;
+		while(j>0 && v[j-1]>v[j]){
+			scambia(v,j,j-1);
+			j--;		
+		}
+	}
+
+
+SELECTIONSORT
+
+Caso peggiore temporalmente	O(n²)
+Caso ottimo temporalmente	O(n²)
+Caso medio temporalmente	O(n²)
+Caso peggiore spazialmente	O(n) totale
+
+L'ordinamento per selezione (selection sort) è un algoritmo di ordinamento che opera in place ed in modo simile all'ordinamento per inserzione. L'algoritmo è di tipo non adattivo, ossia il suo tempo di esecuzione non dipende dall'input ma dalla dimensione dell'array.L'algoritmo seleziona di volta in volta il numero minore nella sequenza di partenza e lo sposta nella sequenza ordinata; di fatto la sequenza viene suddivisa in due parti: la sottosequenza ordinata, che occupa le prime posizioni dell'array, e la sottosequenza da ordinare, che costituisce la parte restante dell'array.
+Dovendo ordinare un array A di lunghezza n, si fa scorrere l'indice i da 1 a n-1 ripetendo i seguenti passi:
+si cerca il più piccolo elemento della sottosequenza A[i..n];
+si scambia questo elemento con l'elemento i-esimo.
+Il ciclo interno è un semplice test per confrontare l'elemento corrente con il minimo elemento trovato fino a quel momento (più il codice per incrementare l'indice dell'elemento corrente e per verificare che esso non ecceda i limiti dell'array). Lo spostamento degli elementi è fuori dal ciclo interno: ogni scambio pone un elemento nella sua posizione finale quindi il numero di scambi è pari a N-1 (dato che l'ultimo elemento non deve essere scambiato). Il tempo di calcolo è determinato dal numero di confronti.
+A livello asintotico viene studiato il tempo di esecuzione dei due cicli for.
+L'ordinamento per selezione effettua e N(N-1)/2 confronti e, nel caso peggiore/migliore/medio, O(n-1) scambi.
+La complessità di tale algoritmo è dell'ordine di O(n^2)
+
+algoritmo iterativo:
+
+template <class T> void selectionsort(T *v,int n){
+	for(int i=0;i<n-1;i++){	
+		int m=i;
+		for(int j=i+1;j<n;j++)
+			if(v[m]>v[j]) m=j;
+		scambia (v,i,m);
+	}
+}
+
+algoritmo ricorsivo #1:
+
+template <class T> void r_1selectionsort(T *v, int n){
+	if(n<=1) return;
+	int m=0;
+	for(int i=0;i<n;i++) 
+		if(v[m]>v[i]) m=i;
+	scambia(v,0,m);
+	r_1selectionsort(v+1,n-1);
+}
+
+algoritmo ricorsivo #2:
+
+template <class T> void r_2selectionsort(T *v, int n){
+	if(n<=1) return;
+	int m=0;
+	for(int i=0;i<n;i++) 
+		if(v[m]<v[i]) m=i;
+	scambia(v,n-1,m);
+	r_2selectionsort(v,n-1);
+}
+
+
+
+QUICKSORT
+
+Caso peggiore temporalmente	O(n^2)
+Caso ottimo temporalmente	O(n*logn)->complessità linearitmica
+Caso medio temporalmente	O(n*logn) 
+
+Quicksort è un algoritmo di ordinamento ricorsivo in place non stabile. Tale procedura ricorsiva viene comunemente detta partition: preso un elemento chiamato "pivot" da una struttura dati (es. array) si pongono gli elementi minori a sinistra rispetto al pivot e gli elementi maggiori a destra. L'operazione viene quindi reiterata sui due insiemi risultanti fino al completo ordinamento della struttura.
+Il Quicksort, termine che tradotto letteralmente in italiano indica ordinamento rapido, è l'algoritmo di ordinamento che ha, nel caso medio, prestazioni migliori tra quelli basati su confronto. È stato ideato da Charles Antony Richard Hoare nel 1961.
+
+Esistono delle varianti del quicksort che si basano sulla differente scelta dell'elemento pivot all'interno della serie di dati da ordinare.
+-Non casuale (non random): in questa versione si sceglie come pivot l'elemento in ultima posizione evitando in questo modo il calcolo della scelta dei numeri casuali. Il caso pessimo è rappresentato da un vettore ordinato al contrario. Anche qualora venga scelto un altro elemento come pivot (ad es. il primo o quello di mezzo) si può trovare un caso pessimo.
+-Metodo della mediana: Il metodo della mediana di 3 è un tipico approccio che consente di migliorare i partizionamenti dell'array, evitando partizioni troppo sbilanciate, e consiste nell'effettuare il partizionamento scegliendo opportunamente il pivot nel sottoarray: in particolare si sceglie come pivot la mediana di un insieme di tre elementi selezionati a caso dal sottoarray. Anche in questo caso tuttavia esiste un caso pessimo ed ha complessità quadratica.
+-Casuale (random): Questa è la prima versione pubblicata del quicksort che si basa sulla scelta casuale dell'elemento pivot. Questo non permette di stabilire a tavolino quale sia il caso peggiore, che tuttavia si verificherà con probabilità O((1/n)^log n).
+
+funzione partition :
+
+template <class T> int partition(T *v,int n){
+	T x = v[0];//elemento pivot
+	int i=-1;
+	int j=n;
+	do{
+		do i++; while(v[i]<x);
+		do j--; while(v[j]>x);
+		if(i<j) scambia(v,i,j);
+	}while(i<j);
+	return j;
+}
+
+algoritmo ricorsivo : (vengono effettuate due chiamate ricorsive sull'array v : la prima  su v[0], la seconda su v[m+1] dove m è l'elemento pivot)
+
+template <class T> void quicksort(T *v, int n){
+	if(n<=1) return;
+	int m = partition(v,n);
+	quicksort(v,m+1);
+	quicksort(v+m+1,n-(m+1));
+}
+
+
+MERGESORT
+
+Caso peggiore temporalmente	O(n*log n)
+Caso ottimo temporalmente	O(n*log n)
+Caso medio temporalmente	O(n*log n)
+
+Il merge sort è un algoritmo di ordinamento basato su confronti che utilizza un processo di risoluzione ricorsivo, sfruttando la tecnica del Divide et Impera, che consiste nella suddivisione del problema in sottoproblemi della stessa natura di dimensione via via più piccola. Fu inventato da John von Neumann nel 1945. Una descrizione dettagliata e un'analisi della versione bottom-up dell'algoritmo apparve in un articolo di Goldstine e Neumann già nel 1948.Concettualmente, l'algoritmo funziona nel seguente modo:
+Se la sequenza da ordinare ha lunghezza 0 oppure 1, è già ordinata. Altrimenti:
+La sequenza viene divisa (divide) in due metà (se la sequenza contiene un numero dispari di elementi, viene divisa in due sottosequenze di cui la prima ha un elemento in più della seconda)
+Ognuna di queste sottosequenze viene ordinata, applicando ricorsivamente l'algoritmo (impera)
+Le due sottosequenze ordinate vengono fuse (combina). Per fare questo, si estrae ripetutamente il minimo delle due sottosequenze e lo si pone nella sequenza in uscita, che risulterà ordinata
+
+funzione merge:
+
+template <class T> void merge(T *v, int n , int m){//O(n)
+	T b[n];
+	int i,j,k;
+	i = k = 0;
+	j = m;
+	while(i<m && j<n){
+		if(v[i]<v[j]) b[k++]=v[i++];
+		else b[k++]=v[j++];	
+	}
+	while(i<m) b[k++]=v[i++];
+	while(j<n) b[k++]=v[j++];
+	for(int i=0;i<n;i++) v[i]=b[i];	
+}
+
+algoritmo ricorsivo:
+template <class T> void mergesort(T *v, int n){//O(nlog(n)) complessità linearitmica
+	if(n<=1) return;	
+	int m = n/2;
+	//v[0 . . m-1] +v[m . . n-1]
+	mergesort(v,m);
+	mergesort(v+m,n-m);
+	merge(v,n,m);	
+}

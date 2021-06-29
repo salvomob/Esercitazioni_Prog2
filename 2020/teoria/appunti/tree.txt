@@ -1,0 +1,29 @@
+PROFONDITA' DI UN NODO:
+per profondità di un nodo si intende il numero di archi che lo separano dal nodo root.
+
+
+ALTEZZA DELL'ALBERO
+per altezza di un albero si intende la profondità dell'ultima foglia dell'albero. L'altezza minima di un albero è quando l'albero è completo, il caso peggiore è se avessimo una lista
+
+FOGLIA
+una foglia è un nodo che non ha alcun figlio sinistro e destro. Ci possono essere 2^n foglie su un livello, con n profondità dell'albero di quel livello. Quindi l'altezza di un albero completo è log2(n).
+
+ROOT
+la root è la radice dell'albero, ossia quel nodo al quale sono collegati tutti gli altri.
+
+INSERIMENTO
+stessa complessità della ricerca: per inserire un nodo devo seguire tutti gli archi del sottoalbero fino a trovare la posizione esatta in cui andare ad inserire il nuovo nodo
+
+RICERCA  
+stessa complessità dell'altezza dell'albero
+
+CANCELLAZIONE
+ci sono tre casi:
+#1 foglia(0 figli)-> si elimina il nodo dalla struttura e basta, molto semplice
+#2 Il nodo(1 figlio)-> si prende il figlio e lo si mette an posto del nodo che si vuole cancellare
+#3 Il nodo ha 2 filgi-> si prende il successivo nodo (non il figlio , ma il successivo ossia l'elemento con la key subito più grande) e si scambiano i posti dei due nodi. Poi elimina il nodo che volevamo cancellare dalla struttura dati.
+
+VISITE (modi per iterare su tutti i nodi, visitandoli una ed una sola volta)
+#1 PREORDER: Ogni nodo viene visitato prima dei suoi figli. Si procede sempre da sisnistra a destra 
+#2 INORDER: Stampa l'albero in ordine , come fosse una lista ordinata
+#3 POSTORDER:Come la preorder, ma il nodo padre viene stampato dopo dei dei figli

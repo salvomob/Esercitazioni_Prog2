@@ -1,0 +1,92 @@
+G = (V,E) il grafo è costituito da un insieme di nodi(vertici) ed un insieme di archi
+
+V = insieme dei nodi
+E = inseieme degli archi
+
+|V| = n
+|E| = m
+
+Esiste una relazione tra un nodo i ed un nodo j se c'è un arco che collega i a j o j a i
+
+Cammino 
+
+p = <4,2,1,0,3,7>  ogni coppia di valori rappresenta un arco che congiunge i due nodi
+
+
+Ciclo
+
+Nodo sorgente
+     |
+p = <4,2,1,0,3,7,4> il primo elemento del cammino è uguale all'ultimo elemento del cammino  (dove p indica il cammino)
+
+Queste definizioni valgono sia per grafi direzionati che non. L'unica differenza è che nei grafi direzionati i cammini devono seguire le direzioni delle frecce
+
+
+Numero più piccolo di archi con m nodi presenti all'interno della struttura dati = 0
+In questo caso l'insieme degli archi è vuoto.
+
+
+
+Numero massimo di archi con n nodi presenti all'interno della struttura dati 0 <= m <= n^2
+Ogni nodo può essere collegato ad altri m nodi(grafo direzionato)
+
+(n(n+1))/2 grafo non direzionato
+
+m = O(m^2)
+
+
+Un cammino può essere semplice o non semplice
+
+Semplice -> un nodo compare all'interno del cammino una sola volta
+
+Non semplice -> non ci sono restrizioni sui vari collegamenti possibili
+
+lunghezza massima cammino semplice su un grafo con n nodi = n-1
+
+|p| <= n-1 ( se p è semplice)
+
+
+Ci sono cicli semplici e non semplici
+
+vi sono infiniti cicli non semplici all'interno di un grafo(possiamo ripercorrere un ciclo semplice , ottenendo un ciclo diverso)
+
+
+un ciclo semplice è quello in cui un nodo compare una sola volta
+
+
+esistono i grafi aciclici
+
+Il grado di un nodo è il numero di archi che escono dal nodo stesso
+
+Un nodo i si dice adiacente ad un altro nodo j se esiste un arco che va da j ad i 
+
+L'insieme dei nodi adiacenti  ad un nodo ha cardinalità del grado del nodo stesso
+
+raggiungibilità (possiamo eleggere ogni nodo come nodo sorgente e dunque vi sono nodi raggiungibili solo con certi nodi sorgenti)
+
+
+ogni nodo è identificato univocamente da un id (key) 
+
+
+Una matrice di adiacenza , se n è il numero dei nodi ed m il numero degli archi, ha dimensione m x m	
+
+ad ogni casella corrisponde un possibile arco ( 1 se presente vuoto altrimenti)
+
+
+ogni riga ed ogni colonna rappresenta una delle key dei nodi : se è presente un 1 alla casella (1,0) vuol dire che esiste un arco che parte dal nodo 1 e va al nodo 0
+
+
+La lista di adiacenza mi da, nodo per nodo, tutti gli archi che compongono il grafo ed il peso(in questo corso unitario) di ogni arco
+La complessità computazionale sarà dunque O(m+n)
+
+O(n^2) <--> O(m+n) quale conviene? dipende dal rapporto fra m ed n^2
+
+se m è vicino a n^2 conviene usare la matrice per semplicità di progettazione -> interrogazione  su presenza arco O(1) 
+
+Se invece il grafo è un grafo sparso, ossia m molto minore di n^2 conviene usare la lista
+
+Durante una visita DFS possiamo catalogare quattro tipi diversi di archi :
+#1 archi dell'albero -> sono quelli che uniscono un nodo al suo parent
+#2 archi all'indietro-> uniscono un discendente con un suo antenato
+#3 archi in avanti -> uniscono un antenato con un suo discendente
+#4 archi di attraversamento -> uniscono due nodi che fanno parte di due rami o di due alberi diversi. 

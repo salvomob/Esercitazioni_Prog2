@@ -1,0 +1,3 @@
+int 10 ins:173 ins:130 ins:144 ins:23 ins:240 ins:192 ins:87 ins:127 ins:40 ins:3
+int 10 ins:257 ins:33 ins:78 ins:235 ins:26 ins:67 ins:79 ins:279 ins:272 ins:36
+int 10 ins:128 ins:294 ins:101 ins:208 ins:268 ins:24 ins:30 ins:22 ins:249 ins:253

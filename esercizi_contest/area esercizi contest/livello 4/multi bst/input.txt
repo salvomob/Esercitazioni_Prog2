@@ -1,0 +1,100 @@
+int 18 inorder ins:203 ins:112 ins:49 ins:7 ins:49 ins:203 ins:203 ins:112 ins:203 ins:7 ins:8 ins:169 ins:86 ins:7 ins:151 ins:134 ins:86 ins:46
+int 20 postorder ins:247 ins:102 ins:102 ins:247 ins:247 ins:102 ins:247 ins:206 ins:102 ins:164 ins:164 ins:206 ins:206 ins:73 ins:132 ins:73 ins:132 ins:45 ins:47 ins:51
+int 17 preorder ins:146 ins:144 ins:146 ins:146 ins:146 ins:144 ins:144 ins:144 ins:144 ins:146 ins:144 ins:151 ins:144 ins:144 ins:29 ins:186 ins:221
+int 15 postorder ins:238 ins:61 ins:238 ins:61 ins:273 ins:144 ins:238 ins:248 ins:61 ins:144 ins:183 ins:50 ins:144 ins:61 ins:144
+int 16 preorder ins:74 ins:292 ins:292 ins:292 ins:73 ins:292 ins:292 ins:73 ins:74 ins:292 ins:73 ins:74 ins:292 ins:129 ins:157 ins:157
+int 12 preorder ins:193 ins:90 ins:35 ins:90 ins:135 ins:256 ins:135 ins:290 ins:193 ins:193 ins:239 ins:256
+int 17 postorder ins:178 ins:0 ins:0 ins:0 ins:71 ins:178 ins:237 ins:178 ins:0 ins:178 ins:122 ins:94 ins:122 ins:255 ins:122 ins:237 ins:122
+int 23 preorder ins:138 ins:117 ins:275 ins:4 ins:228 ins:210 ins:257 ins:138 ins:61 ins:257 ins:273 ins:138 ins:273 ins:143 ins:279 ins:153 ins:293 ins:31 ins:149 ins:149 ins:279 ins:257 ins:56
+int 13 preorder ins:88 ins:101 ins:250 ins:250 ins:123 ins:136 ins:88 ins:250 ins:27 ins:219 ins:206 ins:157 ins:108
+int 23 preorder ins:154 ins:155 ins:154 ins:293 ins:293 ins:293 ins:154 ins:293 ins:155 ins:76 ins:193 ins:154 ins:154 ins:184 ins:76 ins:56 ins:155 ins:56 ins:160 ins:193 ins:155 ins:160 ins:160
+int 17 preorder ins:218 ins:174 ins:174 ins:218 ins:82 ins:218 ins:174 ins:153 ins:174 ins:248 ins:177 ins:82 ins:174 ins:248 ins:101 ins:177 ins:82
+int 24 preorder ins:205 ins:216 ins:216 ins:268 ins:243 ins:18 ins:34 ins:123 ins:18 ins:243 ins:51 ins:18 ins:123 ins:51 ins:243 ins:284 ins:284 ins:209 ins:2 ins:66 ins:243 ins:209 ins:270 ins:58
+int 14 preorder ins:249 ins:100 ins:100 ins:249 ins:249 ins:249 ins:249 ins:100 ins:249 ins:72 ins:273 ins:113 ins:98 ins:269
+int 28 inorder ins:4 ins:34 ins:121 ins:34 ins:4 ins:111 ins:267 ins:4 ins:131 ins:189 ins:121 ins:34 ins:50 ins:34 ins:121 ins:236 ins:211 ins:73 ins:265 ins:95 ins:131 ins:241 ins:16 ins:131 ins:280 ins:247 ins:186 ins:3
+int 11 postorder ins:51 ins:7 ins:162 ins:55 ins:55 ins:55 ins:193 ins:162 ins:193 ins:255 ins:57
+int 13 postorder ins:72 ins:90 ins:72 ins:90 ins:276 ins:72 ins:72 ins:298 ins:90 ins:165 ins:298 ins:93 ins:298
+int 21 preorder ins:283 ins:234 ins:223 ins:283 ins:112 ins:17 ins:234 ins:223 ins:17 ins:283 ins:223 ins:6 ins:183 ins:93 ins:13 ins:2 ins:183 ins:125 ins:183 ins:223 ins:136
+int 18 postorder ins:240 ins:271 ins:271 ins:59 ins:291 ins:157 ins:157 ins:12 ins:271 ins:238 ins:240 ins:208 ins:19 ins:168 ins:254 ins:205 ins:49 ins:157
+int 27 preorder ins:220 ins:91 ins:91 ins:91 ins:186 ins:220 ins:253 ins:220 ins:50 ins:253 ins:91 ins:253 ins:70 ins:193 ins:235 ins:193 ins:237 ins:220 ins:111 ins:261 ins:3 ins:193 ins:193 ins:9 ins:253 ins:188 ins:176
+int 23 inorder ins:24 ins:41 ins:24 ins:105 ins:32 ins:105 ins:207 ins:48 ins:207 ins:105 ins:207 ins:243 ins:94 ins:24 ins:243 ins:24 ins:247 ins:245 ins:247 ins:175 ins:65 ins:24 ins:73
+int 25 postorder ins:280 ins:248 ins:208 ins:251 ins:177 ins:280 ins:248 ins:251 ins:12 ins:245 ins:278 ins:208 ins:281 ins:197 ins:107 ins:29 ins:12 ins:248 ins:277 ins:197 ins:285 ins:150 ins:280 ins:33 ins:28
+int 22 postorder ins:89 ins:158 ins:52 ins:101 ins:52 ins:52 ins:89 ins:52 ins:76 ins:158 ins:205 ins:34 ins:158 ins:34 ins:275 ins:101 ins:60 ins:166 ins:66 ins:170 ins:158 ins:60
+int 21 preorder ins:8 ins:65 ins:8 ins:18 ins:18 ins:18 ins:258 ins:8 ins:72 ins:50 ins:258 ins:258 ins:294 ins:1 ins:133 ins:1 ins:8 ins:213 ins:69 ins:213 ins:18
+int 19 inorder ins:277 ins:214 ins:192 ins:192 ins:192 ins:296 ins:267 ins:277 ins:296 ins:48 ins:214 ins:48 ins:90 ins:90 ins:48 ins:48 ins:296 ins:187 ins:277
+int 23 inorder ins:257 ins:246 ins:123 ins:190 ins:192 ins:123 ins:226 ins:12 ins:257 ins:160 ins:160 ins:160 ins:57 ins:49 ins:246 ins:12 ins:192 ins:246 ins:123 ins:56 ins:49 ins:56 ins:56
+int 11 postorder ins:24 ins:139 ins:139 ins:139 ins:181 ins:167 ins:24 ins:184 ins:24 ins:51 ins:139
+int 16 inorder ins:70 ins:107 ins:70 ins:107 ins:151 ins:191 ins:32 ins:107 ins:191 ins:107 ins:284 ins:129 ins:99 ins:32 ins:169 ins:291
+int 12 preorder ins:167 ins:160 ins:160 ins:160 ins:296 ins:253 ins:238 ins:5 ins:238 ins:68 ins:51 ins:296
+int 21 inorder ins:137 ins:26 ins:137 ins:60 ins:276 ins:60 ins:26 ins:159 ins:44 ins:137 ins:189 ins:92 ins:276 ins:266 ins:189 ins:159 ins:26 ins:159 ins:137 ins:92 ins:276
+double 11 postorder ins:25 ins:28.1 ins:15.6 ins:28.1 ins:25 ins:10 ins:15.6 ins:23.1 ins:25 ins:23.1 ins:9.2
+double 22 preorder ins:14.8 ins:7.8 ins:7.8 ins:19.8 ins:14.8 ins:21 ins:21 ins:24.8 ins:19.8 ins:5.1 ins:3.2 ins:29 ins:20.9 ins:29.5 ins:23.4 ins:5.1 ins:21 ins:25.4 ins:3.2 ins:0.3 ins:2 ins:20.9
+double 15 postorder ins:10.7 ins:10.4 ins:27.3 ins:10.4 ins:17.7 ins:10.7 ins:12 ins:20.6 ins:12.2 ins:12.2 ins:12 ins:10.7 ins:16.5 ins:20 ins:10.4
+int 19 preorder ins:169 ins:145 ins:263 ins:145 ins:169 ins:145 ins:42 ins:14 ins:188 ins:188 ins:16 ins:16 ins:22 ins:42 ins:168 ins:188 ins:168 ins:9 ins:255
+double 12 postorder ins:11.2 ins:3.5 ins:23 ins:1.7 ins:23 ins:18.6 ins:18.6 ins:27.6 ins:18.2 ins:19.8 ins:23 ins:24.8
+double 15 postorder ins:5.9 ins:26.4 ins:22.1 ins:3.2 ins:22.1 ins:26.4 ins:3.2 ins:22.1 ins:19.1 ins:21.9 ins:22.1 ins:21.9 ins:16.3 ins:3.9 ins:26.6
+int 20 postorder ins:63 ins:5 ins:63 ins:63 ins:291 ins:248 ins:5 ins:63 ins:291 ins:248 ins:5 ins:1 ins:263 ins:1 ins:170 ins:291 ins:1 ins:291 ins:188 ins:291
+int 17 inorder ins:57 ins:108 ins:253 ins:251 ins:108 ins:251 ins:57 ins:251 ins:253 ins:253 ins:108 ins:253 ins:108 ins:19 ins:108 ins:57 ins:253
+double 28 preorder ins:28.2 ins:8 ins:8 ins:18.9 ins:8 ins:28.6 ins:1.4 ins:18.9 ins:8 ins:1.4 ins:17.7 ins:8 ins:18.9 ins:8 ins:13 ins:19.9 ins:29.2 ins:8 ins:17.7 ins:2.3 ins:8 ins:13 ins:4.3 ins:23.8 ins:19.9 ins:8.3 ins:25.7 ins:28.6
+double 28 preorder ins:3.8 ins:2.6 ins:26 ins:3.8 ins:10.5 ins:3.1 ins:10.5 ins:23.5 ins:0.1 ins:3.8 ins:0.1 ins:2.6 ins:3.8 ins:8.3 ins:1 ins:3.8 ins:2.4 ins:3.8 ins:4.8 ins:23.5 ins:0.1 ins:8.3 ins:26 ins:29.9 ins:1 ins:13.6 ins:19.5 ins:19.5
+int 29 inorder ins:30 ins:11 ins:11 ins:11 ins:30 ins:82 ins:201 ins:201 ins:62 ins:180 ins:79 ins:174 ins:78 ins:11 ins:55 ins:14 ins:212 ins:174 ins:212 ins:11 ins:11 ins:127 ins:212 ins:140 ins:140 ins:180 ins:194 ins:11 ins:99
+int 24 inorder ins:106 ins:249 ins:133 ins:105 ins:105 ins:249 ins:249 ins:249 ins:105 ins:106 ins:133 ins:249 ins:84 ins:84 ins:106 ins:105 ins:133 ins:105 ins:105 ins:61 ins:106 ins:249 ins:84 ins:106
+double 12 preorder ins:24.7 ins:3.4 ins:24.7 ins:3.4 ins:3.4 ins:12.5 ins:12.5 ins:5.6 ins:13.9 ins:13.9 ins:19.9 ins:19.9
+double 25 preorder ins:26 ins:0.9 ins:7.9 ins:7.9 ins:17 ins:0.9 ins:14.4 ins:0.9 ins:0.7 ins:0.9 ins:7.9 ins:26 ins:19 ins:19.2 ins:12.5 ins:14.4 ins:0.9 ins:19 ins:17 ins:19 ins:25.1 ins:19.2 ins:21.6 ins:7.9 ins:12.5
+double 19 inorder ins:24.8 ins:5.3 ins:20.7 ins:19.7 ins:24.8 ins:13.8 ins:20.7 ins:5.3 ins:19.7 ins:20.7 ins:24.8 ins:26.4 ins:26.4 ins:5.7 ins:9.9 ins:5.3 ins:13.8 ins:18.8 ins:9.3
+int 12 inorder ins:57 ins:282 ins:31 ins:31 ins:57 ins:57 ins:60 ins:254 ins:60 ins:106 ins:254 ins:139
+double 13 preorder ins:27.7 ins:0.8 ins:27.7 ins:16.3 ins:11.6 ins:16.3 ins:27.7 ins:19.7 ins:2.1 ins:16.3 ins:26.6 ins:0.8 ins:0.8
+int 25 inorder ins:270 ins:173 ins:290 ins:274 ins:155 ins:214 ins:155 ins:33 ins:155 ins:94 ins:94 ins:33 ins:264 ins:81 ins:155 ins:33 ins:81 ins:179 ins:200 ins:155 ins:64 ins:138 ins:278 ins:46 ins:33
+double 20 postorder ins:18.9 ins:29.9 ins:3.6 ins:3.6 ins:29.9 ins:29.9 ins:18.9 ins:18.9 ins:29.9 ins:18.9 ins:12.4 ins:28.8 ins:18.9 ins:3.6 ins:12.4 ins:29.9 ins:28.8 ins:13.2 ins:27.7 ins:5.1
+int 24 postorder ins:231 ins:183 ins:231 ins:183 ins:183 ins:231 ins:42 ins:42 ins:270 ins:103 ins:247 ins:202 ins:42 ins:247 ins:96 ins:270 ins:131 ins:131 ins:231 ins:103 ins:202 ins:247 ins:42 ins:202
+double 27 preorder ins:5.2 ins:21.7 ins:5.2 ins:21.7 ins:5.2 ins:5.4 ins:11.6 ins:6 ins:5.4 ins:20.2 ins:21.7 ins:10.9 ins:5.2 ins:0.3 ins:21.7 ins:9.5 ins:22.3 ins:5.4 ins:11.1 ins:20.2 ins:12.7 ins:29.8 ins:28.7 ins:10 ins:11.6 ins:10 ins:28.7
+double 28 postorder ins:21.2 ins:20.7 ins:20.7 ins:23.3 ins:23.3 ins:20.7 ins:23.3 ins:13.1 ins:5.9 ins:18.9 ins:6 ins:26 ins:2.3 ins:23.3 ins:10.3 ins:20.7 ins:21.2 ins:18.7 ins:7.1 ins:7.1 ins:23.3 ins:28.4 ins:2.3 ins:16 ins:21.2 ins:3.2 ins:26 ins:16
+int 25 preorder ins:144 canc:144 ins:255 ins:9 canc:255 ins:131 ins:221 ins:69 ins:21 ins:57 ins:74 ins:21 ins:288 ins:69 ins:74 canc:221 ins:288 canc:74 ins:288 ins:246 canc:57 ins:245 ins:9 ins:102 ins:299
+int 22 inorder ins:294 ins:39 ins:49 ins:181 ins:49 canc:181 ins:294 canc:39 canc:294 ins:5 ins:211 ins:117 ins:294 canc:117 ins:29 ins:211 canc:49 ins:125 canc:125 ins:29 ins:29 ins:211
+int 16 inorder ins:191 ins:291 ins:191 ins:291 ins:191 ins:26 ins:223 canc:26 ins:191 ins:191 ins:7 canc:191 canc:7 ins:223 ins:291 ins:176
+int 27 preorder ins:262 ins:285 canc:285 ins:199 ins:14 ins:199 ins:201 ins:199 ins:57 ins:128 ins:199 ins:199 ins:141 canc:199 canc:14 ins:262 ins:141 ins:199 ins:201 ins:203 ins:112 ins:90 ins:222 canc:222 ins:174 ins:176 ins:141
+double 16 preorder ins:25.4 canc:25.4 ins:13.4 ins:11.7 ins:16.3 ins:29.6 ins:16.3 ins:3.2 ins:29.6 canc:11.7 ins:13.4 ins:3.2 ins:3.2 canc:13.4 ins:14.4 canc:29.6
+int 19 inorder ins:211 ins:140 ins:99 ins:140 ins:207 ins:65 canc:140 ins:207 canc:65 ins:282 ins:207 ins:140 canc:211 ins:207 canc:207 canc:207 ins:207 ins:98 ins:185
+double 21 postorder ins:15.3 ins:23.8 canc:23.8 ins:12.8 ins:27 canc:12.8 ins:15.3 ins:27 canc:27 ins:22.1 canc:22.1 ins:27 canc:15.3 ins:28.7 ins:28.1 canc:28.7 ins:23.8 canc:27 ins:7.9 ins:3.5 canc:3.5
+double 12 postorder ins:20.1 canc:20.1 ins:14.7 canc:14.7 ins:14.5 ins:22.3 ins:15.2 canc:14.5 ins:19.4 ins:15.2 ins:24.8 ins:22.3
+int 26 inorder ins:150 ins:8 ins:5 ins:5 ins:51 canc:8 canc:5 ins:150 ins:235 ins:5 ins:51 ins:235 ins:248 ins:5 ins:150 ins:51 canc:5 ins:51 canc:5 ins:235 ins:148 ins:150 ins:150 ins:235 ins:279 canc:235
+int 15 postorder ins:199 ins:47 canc:199 ins:30 canc:47 ins:224 ins:235 ins:224 ins:92 ins:75 canc:235 canc:30 ins:75 canc:224 ins:92
+double 19 postorder ins:3.2 canc:3.2 ins:6.4 ins:1.5 ins:1.5 canc:1.5 ins:13.1 ins:4.1 ins:1.5 ins:1.5 ins:18.5 ins:4.1 ins:18.5 ins:18.5 ins:15.5 ins:29.5 ins:18.5 canc:29.5 canc:4.1
+double 26 postorder ins:26 ins:4.7 ins:4.7 ins:4.7 ins:11.5 ins:26 canc:4.7 ins:11.5 ins:11.5 canc:11.5 ins:14.7 ins:13.4 ins:21.9 canc:4.7 ins:14.7 canc:11.5 ins:23.2 ins:14.7 ins:4 canc:23.2 ins:0.4 ins:11.5 ins:8.4 ins:19.3 ins:6.8 ins:5.3
+double 14 preorder ins:19.5 ins:16.1 canc:16.1 canc:19.5 ins:11.6 canc:11.6 ins:15.3 ins:7.8 ins:11.8 ins:15.3 ins:11.8 ins:24.4 ins:11.8 canc:15.3
+int 16 postorder ins:228 ins:221 ins:221 canc:221 ins:228 ins:221 ins:261 ins:12 ins:261 ins:228 ins:261 ins:192 ins:167 ins:261 ins:192 ins:192
+double 12 inorder ins:22.1 ins:1.3 canc:1.3 ins:24.8 ins:27.8 ins:27.8 ins:27.8 ins:3.3 ins:0.3 canc:27.8 ins:5 ins:3.6
+double 23 preorder ins:13.9 ins:23.5 ins:5 canc:23.5 ins:7.2 ins:13.9 ins:20.5 canc:5 ins:28.6 ins:13.9 ins:26.2 ins:13.9 ins:28.6 ins:26.2 canc:26.2 ins:20.5 canc:28.6 canc:26.2 ins:7.2 ins:4.2 canc:7.2 canc:4.2 ins:20.5
+double 19 preorder ins:19 canc:19 ins:26.9 ins:21.4 ins:9.8 ins:28.5 ins:9.8 ins:9.8 ins:29 ins:29 ins:29.8 canc:29 canc:29.8 ins:24.6 ins:7 ins:29 canc:24.6 canc:7 ins:14
+double 16 preorder ins:28.8 canc:28.8 ins:6.9 ins:4.7 ins:0.2 canc:0.2 ins:6.9 ins:6.9 canc:4.7 canc:6.9 ins:1 ins:28.1 canc:1 canc:28.1 ins:6.9 ins:8.5
+int 19 inorder ins:278 ins:195 canc:278 ins:98 canc:195 ins:85 ins:236 ins:98 ins:76 canc:98 ins:95 ins:95 ins:283 ins:76 ins:234 ins:85 ins:47 ins:179 ins:62
+int 28 postorder ins:0 ins:14 ins:14 canc:14 ins:207 ins:3 canc:14 canc:0 ins:213 ins:3 ins:37 canc:213 ins:3 canc:37 ins:192 ins:192 ins:3 canc:207 ins:109 ins:3 ins:154 ins:149 canc:3 ins:192 ins:149 ins:84 ins:149 canc:109
+int 18 inorder ins:89 ins:236 canc:89 canc:236 ins:101 canc:101 ins:177 ins:186 ins:244 ins:218 ins:39 ins:39 ins:177 ins:52 ins:39 ins:177 ins:196 ins:83
+int 28 postorder ins:162 ins:145 ins:162 ins:145 ins:103 ins:103 ins:103 canc:162 ins:145 ins:91 ins:288 canc:288 ins:96 ins:96 ins:152 ins:145 ins:96 ins:221 ins:145 ins:152 canc:162 ins:96 ins:91 canc:152 ins:145 ins:152 ins:10 ins:13
+double 24 inorder ins:23 ins:14.2 ins:14.2 ins:12.4 ins:23 canc:14.2 canc:23 ins:23 canc:14.2 ins:21.7 ins:23 ins:6.4 ins:21.7 ins:12.4 ins:23.8 ins:5.4 ins:9.1 ins:5.4 ins:28.5 ins:28.5 ins:19.9 ins:6.4 ins:6.4 ins:21.7
+double 21 preorder ins:25.5 ins:6 canc:25.5 ins:23.7 canc:23.7 ins:23.9 ins:24.1 ins:6.8 ins:6 canc:24.1 ins:6 ins:6.8 ins:6.8 ins:23.9 ins:0.3 ins:23.9 ins:17.5 canc:6.8 ins:6.8 ins:23.9 ins:6
+double 29 preorder ins:11.9 ins:28.2 ins:11.9 ins:15.9 ins:11.9 canc:28.2 ins:0 ins:19.5 ins:15.9 ins:27.5 ins:15.9 ins:0 ins:7.7 ins:0 ins:0 ins:2.3 ins:11.9 canc:11.9 ins:27.5 ins:5.1 ins:24.3 ins:0.1 canc:5.1 ins:25.1 ins:5 canc:27.5 ins:26.7 ins:27.4 ins:7.7
+double 25 inorder ins:7.1 canc:7.1 ins:1.7 ins:23.8 ins:2.8 canc:1.7 ins:22.2 ins:13.4 canc:22.2 ins:2.8 canc:2.8 canc:13.4 canc:23.8 canc:2.8 ins:25.7 ins:6.2 canc:25.7 ins:8 ins:12.1 ins:12.1 ins:12.1 ins:4.5 ins:1.5 canc:12.1 canc:12.1
+double 23 postorder ins:9.7 ins:26.9 ins:25.5 ins:25.5 ins:26.9 ins:10.9 ins:9.7 canc:9.7 ins:10.9 ins:26.5 canc:26.9 ins:13.1 ins:0.4 ins:13.3 ins:5.3 ins:25.5 ins:13.1 ins:9.7 canc:13.1 canc:9.7 ins:0.4 ins:26.5 canc:26.5
+int 14 inorder ins:171 canc:171 ins:119 canc:119 ins:153 ins:284 canc:284 canc:153 ins:35 ins:211 ins:35 ins:211 ins:211 ins:35
+double 28 postorder ins:28.4 canc:28.4 ins:20.2 ins:19.4 ins:0.4 ins:0.4 ins:0.4 ins:22.3 ins:20.5 canc:20.2 ins:4.8 canc:20.5 ins:29.4 ins:18.2 ins:15.1 ins:9.2 ins:18.2 ins:20.4 ins:21.8 ins:0.4 canc:29.4 ins:21.8 ins:19.4 ins:28.3 ins:14.4 ins:18.2 ins:20.4 ins:24.8
+int 24 inorder ins:168 canc:168 ins:92 ins:69 ins:239 canc:92 ins:239 canc:239 ins:109 ins:184 ins:238 ins:239 ins:184 ins:238 ins:284 ins:101 ins:69 canc:184 ins:71 canc:69 ins:109 ins:284 canc:184 ins:101
+int 13 inorder ins:77 ins:213 ins:77 canc:213 ins:289 canc:77 canc:289 ins:239 ins:54 ins:223 ins:95 ins:239 ins:95
+double 24 preorder ins:14.3 ins:26.4 canc:14.3 ins:23.8 ins:26.4 canc:26.4 canc:23.8 ins:2.4 ins:2.4 ins:24.2 ins:20.9 ins:28.1 ins:26.4 ins:5.8 canc:5.8 canc:26.4 ins:24.8 ins:20.9 ins:28.1 ins:17.6 ins:17.6 canc:17.6 canc:24.8 ins:29.5
+int 21 inorder ins:206 ins:115 ins:115 ins:114 ins:114 ins:206 ins:115 ins:277 canc:206 ins:235 ins:138 ins:134 ins:235 ins:84 ins:8 ins:206 canc:138 ins:163 ins:205 ins:206 canc:114
+int 20 inorder ins:282 ins:148 ins:219 ins:148 canc:219 ins:136 ins:234 canc:148 ins:61 canc:282 ins:136 ins:61 ins:234 canc:148 ins:287 canc:287 ins:168 ins:202 ins:214 canc:202
+double 16 preorder ins:12.8 ins:28.2 ins:28.2 ins:16.9 ins:16.9 ins:28.2 canc:16.9 canc:12.8 canc:16.9 canc:28.2 canc:28.2 ins:6.4 ins:14.6 canc:28.2 ins:9.2 ins:14.6
+int 16 postorder ins:83 canc:83 ins:75 canc:75 ins:173 ins:37 ins:165 ins:151 ins:87 ins:165 ins:272 ins:269 ins:227 ins:227 ins:87 ins:199
+double 10 postorder ins:9.8 ins:27.6 ins:9.8 ins:28.7 ins:27.6 ins:12.4 ins:12.4 ins:19.4 ins:9.8 canc:28.7
+int 19 inorder ins:269 ins:139 ins:269 ins:90 ins:90 ins:269 ins:281 ins:269 ins:90 ins:281 ins:281 ins:293 ins:269 ins:90 ins:270 canc:281 canc:270 ins:139 ins:269
+int 29 postorder ins:5 canc:5 ins:209 ins:133 canc:209 ins:101 ins:133 canc:133 ins:101 ins:101 ins:91 ins:186 ins:133 ins:134 ins:235 ins:101 ins:101 ins:186 canc:133 canc:235 canc:134 canc:101 ins:133 canc:91 canc:133 ins:224 ins:142 ins:101 ins:82
+double 23 preorder ins:26.9 ins:10.3 ins:24.3 ins:10.9 ins:10.9 ins:26.9 ins:10.3 canc:10.9 ins:23.9 ins:0.4 ins:8.1 ins:26.9 ins:18.4 ins:5 ins:18.4 ins:26 canc:18.4 ins:10.3 ins:8.2 canc:10.9 ins:5 ins:18.4 ins:26.9
+double 26 postorder ins:3.2 canc:3.2 ins:15.8 ins:3.7 canc:15.8 ins:5.7 ins:3.7 ins:11.5 ins:26 ins:1.5 canc:3.7 ins:26 canc:26 canc:3.7 canc:5.7 ins:21.2 ins:21.2 ins:5 ins:21.2 ins:21.2 ins:18 canc:1.5 ins:20.8 ins:5 ins:26 ins:17
+int 12 postorder ins:153 ins:177 ins:23 ins:23 canc:153 canc:23 ins:23 ins:140 ins:140 ins:268 ins:177 canc:23
+double 16 postorder ins:13.3 canc:13.3 ins:7.7 ins:21 ins:2.8 ins:16.7 ins:12.6 ins:15.1 ins:4.3 canc:4.3 ins:15.1 canc:7.7 ins:16 ins:15.1 ins:16 canc:15.1
+double 20 preorder ins:18.6 ins:1.8 canc:18.6 ins:18.5 ins:13.8 ins:13.8 canc:1.8 canc:18.5 ins:7.4 canc:13.8 ins:8.5 ins:13.8 ins:5.6 ins:8.2 ins:8.5 ins:8.2 canc:5.6 ins:21.7 ins:15.7 ins:13.8
+double 27 postorder ins:6.1 ins:1.5 ins:6.1 ins:21.9 ins:6.1 canc:1.5 ins:3.6 ins:3.6 ins:10.3 ins:17.3 ins:21.9 canc:10.3 ins:29.2 ins:29.2 ins:17.3 ins:2.8 ins:23.8 ins:6.1 canc:3.6 ins:27.7 canc:27.7 canc:3.6 ins:23.8 ins:7.2 ins:7.2 ins:21.9 ins:15.9
+int 27 preorder ins:152 ins:41 ins:34 ins:152 ins:41 ins:259 ins:41 canc:34 ins:259 canc:152 ins:86 canc:41 ins:86 ins:259 canc:259 ins:259 canc:41 canc:86 ins:124 ins:152 ins:124 canc:259 ins:143 ins:106 canc:41 ins:141 ins:259
+int 14 postorder ins:182 ins:166 ins:1 ins:7 ins:266 ins:166 ins:166 ins:182 ins:182 ins:166 ins:182 ins:182 ins:7 ins:63
+double 18 preorder ins:7.7 ins:26.8 ins:7.7 canc:7.7 ins:1.4 ins:11.5 ins:19 ins:1.4 ins:26.3 ins:12.4 canc:26.3 ins:29.8 ins:6.8 ins:22.5 ins:7.7 ins:28.6 canc:28.6 ins:14.4
+double 23 inorder ins:16.2 ins:24.7 ins:24.7 ins:16.2 ins:24.7 ins:21 ins:16.2 canc:24.7 ins:24.7 canc:21 ins:25.4 ins:17.3 ins:29.5 ins:20.6 ins:26.8 ins:11.9 ins:25.4 ins:11.9 ins:16.2 canc:17.3 ins:2.5 ins:7.4 ins:25.4

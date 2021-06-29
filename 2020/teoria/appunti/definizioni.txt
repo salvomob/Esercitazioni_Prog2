@@ -1,0 +1,27 @@
+												ORDINAMENTO TOPOLOGICO
+
+DEFINIZIONE
+
+In teoria dei grafi un ordinamento topologico (in inglese topological sort) è un ordinamento lineare di tutti i vertici di un grafo aciclico diretto (DAG, directed acyclic graph). I nodi di un grafo si definiscono ordinati topologicamente se i nodi sono disposti in modo tale che ogni nodo viene prima di tutti i nodi collegati ai suoi archi uscenti. L'ordinamento topologico non è un ordinamento totale, poiché la soluzione può non essere unica. Nel caso peggiore infatti si possono avere n! ordinamenti topologici diversi che corrispondono a tutte le possibili permutazioni degli n nodi. È possibile ordinare topologicamente un grafo se e solo se non ha circuiti (cioè solo se è un grafo aciclico diretto), e sono noti algoritmi per determinare un ordinamento topologico in tempo lineare.
+
+
+COMPLESSITA'
+
+Per un grafo G(V,E) dove V è l'insieme dei nodi e E l'insieme degli archi, entrambi gli algoritmi presentano una complessità lineare O(|V|+|E|), mentre l'inserimento di ciascuno dei |V| vertici in testa alla lista concatenata richiede tempo costante. Complessivamente, quindi, gli algoritmi impiegano tempo O(|V|+|E|).
+
+
+
+											COMPONENTI CONNESSE E FORTEMENTE CONNESSE
+											
+DEFINIZIONE
+
+Diciamo che una componente fortemente connessa è un sottoinsieme dell'insieme dei nodi che gode della proprietà di mutua raggiungibilità. Un nodo x è mutuamente raggiungibile da un altro nodo y se esiste un cammino che va da x a y (x-->y) ed un cammino che va da y ad x (y-->x). Mutuamente raggiungibili significa dunque che due nodi sono raggiungibili l'uno dall'altro in una qualche maniera(uno dei due cammini di cui prima). Questo insieme deve essere massimale (un insieme al quale non è possibile aggiungere nessun altro nodo mantenendo la stessa proprietà). 
+GRAFI ORIENTATI--->>> COMPONENTI FORTEMENTE CONNESSE
+GRAFI NON ORIENTATI--->>>COMPONENTI CONNESSE 
+L'insieme delle componenti connesse di un grafo non è altro che una partizione del grafo. Il numero massimo di componente connesse all'interno di un grafo è ovviamente n (grafo aciclico), ed è minimo 1 (grafo formato da un unico grande ciclo)
+
+Grafo delle componenti fortemente connesse --->>> aciclico
+
+COMPLESSITA'
+
+L'algoritmo di !!!Tarjan!!! per le componenti fortemente connesse è uno degli algoritmi più efficienti per effettuare la ricerca delle strutture fortemente connesse in un grafo. Opera infatti a complessità lineare al numero degli archi e dei vertici O(|V|+|E|).
